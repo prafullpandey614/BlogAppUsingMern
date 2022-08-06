@@ -1,13 +1,19 @@
 import React from "react";
 
+import Article from "./ArticleContent";
+
+import "./al.css"
+import Articles from "../components/Articles";
 const ArticleList = () => {
   return (
-    <div>
-    
-      <h1 className="sm:text-4xl text-2xl font-bold my-6 text-grey-900">
-        Article List Page
+    <>
+      {console.log(Article)}
+      <h1 className="text-center">
+        Articles
       </h1>
-    </div>
+      <div className="container"> <Articles Article={Article}/></div>
+     
+    </>
   );
 };
 

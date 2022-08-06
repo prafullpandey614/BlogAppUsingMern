@@ -1,8 +1,10 @@
 import React from 'react'
 
+
 const Home = () => {
   return (
-    <div className="mb-20">
+    <div className="container">
+           
         <h1 className='sm:text-4xl text-2xl font-bold my-6 text-grey-900'>Welcome to My Blog</h1>
         
         <br />

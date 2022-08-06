@@ -1,0 +1,5 @@
+.article-card{
+    display: inline-flex;
+    margin: 2rem 5rem;
+    width: 35%;
+}
